@@ -1,4 +1,4 @@
-console.log("Ok I'm in");
+console.log("This Is Main Script");
 
 //Task(1)
 document.getElementById('top-players').style.color = 'tomato';
