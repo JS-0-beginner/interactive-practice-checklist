@@ -45,11 +45,13 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 26px;
   grid-column-gap: 60px;
+  
   }
 
 .player {
   display: flex;
   align-items: center;
+  
 }
 
 .player img {

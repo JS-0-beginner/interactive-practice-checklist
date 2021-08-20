@@ -12,7 +12,9 @@ const player = document.getElementsByClassName('player');
    
 for(const playerBG of player)
 {
-    playerBG.style.backgroundColor = "rgba(84, 86, 163, 0.3)";
+    playerBG.style.backgroundColor = "rgba(174, 174, 174, 0.226)";
+    playerBG.style.borderRadius = "7px";
+    playerBG.style.padding = "10px";
 }
 
 //Task(3)
