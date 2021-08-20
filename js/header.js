@@ -50,10 +50,22 @@ function()
 
     if(counterInput.value == 5)
     {
-        document.getElementById('counter-press').setAttribute(disabled);
+        document.getElementById('counter-press').setAttribute('disabled', true);
     }
+    
 }
 
+);
+
+document.getElementById('counter-reset').addEventListener('click',
+
+function()
+{
+    document.getElementById('counter-press').removeAttribute('disabled');
+    const counterInput = document.getElementById('counter-input');
+    counterInput.value = 0;
+    
+}
 );
 
 
