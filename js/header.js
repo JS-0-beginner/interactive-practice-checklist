@@ -32,7 +32,29 @@ function()
 
 }
 
-)
+);
+
+//Task(4)
+
+document.getElementById('counter-press').addEventListener('click',
+
+function()
+{
+    // console.log('ping')
+    const counterInput = document.getElementById('counter-input');
+    let counterInputField = counterInput.value;
+    // console.log(counterInputField);
+
+    counterInputField = parseInt(counterInputField) + 1;
+    counterInput.value = counterInputField;
+
+    if(counterInput.value == 5)
+    {
+        document.getElementById('counter-press').setAttribute(disabled);
+    }
+}
+
+);
 
 
 
